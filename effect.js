@@ -88,7 +88,7 @@ $('document').ready(function () {
 
 
 	$('#balloons_flying').click(function () {
-		$('.balloon-border').animate({ top: -500 }, 800);
+		$('.balloon-border').animate({ top: -500 }, 8000);
 		$('#b1,#b2,#b3,#b4,#b5,#b6').addClass('balloons-rotate-behaviour-one');
 
 		$('.balloons').css('opacity', '0.9');
