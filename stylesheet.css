@@ -1,12 +1,19 @@
 body {
 	background-color: #000;
-	/*background-color: #000; FFDAB9 FF0000   */
 	-webkit-transition: background-color linear 5s;
 	-moz-transition: background-color linear 5s;
 	-o-transition: background-color linear 5s;
 	-ms-transition: background-color linear 5s;
 	transition: background-color linear 5s;
 	overflow-x: hidden;
+	margin: 0px;
+	height: 100%;
+	overflow-y: hidden;
+}
+html{
+	margin: 0px;
+	height: 100%;
+	overflow-y: hidden;
 }
 
 .container {
@@ -14,7 +21,6 @@ body {
 }
 
 .peach {
-	/* background-image: url("happ.jpg"); */
 	background-color: peachpuff;
 }
 
@@ -466,8 +472,14 @@ audio {
 	max-width: 100%;
 	-webkit-transform: translate(0px, -500px);
 	transform: translate(0px, -500px);
+	display: none;
 }
-
+.banner.show{
+	max-width: 100%;
+	-webkit-transform: translate(0px, -500px);
+	transform: translate(0px, -500px);
+	display: block;
+}
 .bannar-come {
 	-webkit-animation: bannar_come linear 6s;
 	-webkit-transform: translate(0px, 0px);
