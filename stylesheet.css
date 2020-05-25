@@ -645,7 +645,7 @@ audio {
 }
 
 .cake-cover {
-	margin-top: 50px;
+	margin-top: 70px;
 }
 
 .message {
@@ -654,7 +654,8 @@ audio {
 }
 
 .message p {
-	font-family: 'Merienda', cursive;
+	/* font-family: 'Merienda', cursive; */
+	font-family: 'Lobster', cursive;
 	font-style: normal;
 	font-size: 30px;
 	text-transform: uppercase;
