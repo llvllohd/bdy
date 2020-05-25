@@ -6,15 +6,15 @@ body {
 	-ms-transition: background-color linear 5s;
 	transition: background-color linear 5s;
 	overflow-x: hidden;
+	/* margin: 0px; */
+	/* height: 100%; */
+	/* overflow-y: hidden; */
+}
+/* html{
 	margin: 0px;
 	height: 100%;
 	overflow-y: hidden;
-}
-html{
-	margin: 0px;
-	height: 100%;
-	overflow-y: hidden;
-}
+} */
 
 .container {
 	display: none;
