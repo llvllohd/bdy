@@ -662,7 +662,7 @@ audio {
 	color: #C4515C;
 	text-shadow: 2px 2px 2px #FFF;
 	display: none;
-	font-weight: bold;
+	/* font-weight: bold; */
 }
 
 .btn-primary {
