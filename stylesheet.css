@@ -6,6 +6,7 @@ body {
 	-ms-transition: background-color linear 5s;
 	transition: background-color linear 5s;
 	overflow-x: hidden;
+	/* overflow-y: hidden; */
 
 }
 
@@ -640,11 +641,11 @@ audio {
 	padding: 10px 0px 10px 0px;
 }
 
-#play, #bannar_coming, #balloons_flying, #cake_fadein, #light_candle, #wish_message, #story {
+#play, #bannar_coming, #balloons_flying, #cake_fadein, #light_candle, #wish_message, #story, .img {
 	display: none;
 }
 
-.cake-cover {
+.cake-cover .img {
 	margin-top: 140px;
 }
 

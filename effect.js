@@ -1,5 +1,6 @@
 $(window).load(function () {
 	$('.loading').fadeOut('fast');
+	// $('.canvas').fadeIn('fast');
 	$('.container').fadeIn('fast');
 });
 $('document').ready(function () {
@@ -161,7 +162,7 @@ $('document').ready(function () {
 				$("p:nth-child(" + i + ")").fadeIn('slow').delay(1000);
 				if (i == 50) {
 					$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
-						$('.cake').fadeIn('fast');
+						$('.img').fadeIn('fast');
 					});
 
 				}
