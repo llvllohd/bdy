@@ -472,7 +472,7 @@ audio {
 	max-width: 100%;
 	-webkit-transform: translate(0px, -500px);
 	transform: translate(0px, -500px);
-	display: none;
+	/* display: none; */
 }
 .banner.show{
 	max-width: 100%;

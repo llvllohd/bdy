@@ -1,6 +1,6 @@
 $(window).load(function () {
-	$('#canvas').fadeIn('slow');
-	// $('.loading').fadeOut('fast');
+	// $('#canvas').fadeIn('slow');
+	$('.loading').fadeOut('fast');
 
 	$('.container').fadeIn('fast');
 });
@@ -25,7 +25,7 @@ $('document').ready(function () {
 		$('#bulb_orange').addClass('bulb-glow-orange');
 		$('body').addClass('peach');
 		$(this).fadeOut('slow').delay(500).promise().done(function () {
-			$('#canvas').fadeOut('slow');
+			// $('#canvas').fadeOut('fast');
 			$('#play').fadeIn('slow');
 		});
 	});
@@ -42,7 +42,7 @@ $('document').ready(function () {
 		$('body').addClass('peach-after');
 		$(this).fadeOut('slow').delay(600).promise().done(function () {
 			$('#bannar_coming').fadeIn('slow');
-			$('.bannar').addClass('show');
+			// $('.bannar').addClass('show');
 		});
 	});
 
