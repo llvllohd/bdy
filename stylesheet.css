@@ -6,15 +6,8 @@ body {
 	-ms-transition: background-color linear 5s;
 	transition: background-color linear 5s;
 	overflow-x: hidden;
-	/* margin: 0px; */
-	/* height: 100%; */
-	/* overflow-y: hidden; */
+
 }
-/* html{
-	margin: 0px;
-	height: 100%;
-	overflow-y: hidden;
-} */
 
 .container {
 	display: none;
@@ -674,8 +667,11 @@ audio {
 	border-color: #466baf;
 	padding: 10px;
 	text-transform: uppercase;
-	font-family: 'Merienda', cursive;
-	font-weight: 700;
+	/* font-family: 'Merienda', cursive; */
+	/* font-family: 'Roboto', sans-serif; */
+	font-family: 'Lobster', cursive;
+/* font-family: 'Roboto', sans-serif; */
+	font-weight: 500;
 	color: #fff;
 	background-color: #466baf;
 }
