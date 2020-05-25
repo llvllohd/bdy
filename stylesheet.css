@@ -529,7 +529,8 @@ audio {
 
 .balloons h2 {
 	text-transform: uppercase;
-	font-family: 'Merienda', cursive;
+	/* font-family: 'Merienda', cursive; */
+	font-family: 'Lobster', cursive;
 	font-size: 50px;
 	color: #BF4136;
 	text-shadow: 5px 5px 5px #FFF;
